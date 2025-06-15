@@ -1,6 +1,23 @@
 spring:
   application:
     name: spring-ai
-gg:
-  jte:
+  ai:
+    ollama:
+      chat:
+        options:
+          model: llama3.2:latest
+      embedding:
+        options:
+          model: llama3.2:latest
+  profiles:
+    active: NESL
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      idle-timeout: 30000
+      connection-timeout: 20000
+
+
+jte:
     development-mode: true

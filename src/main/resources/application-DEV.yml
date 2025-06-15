@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    mysql:
+      url: jdbc:mysql://localhost:3306/poll
+      username: root
+      password: thirumal
+      hikari:
+        jdbc-url: ${spring.datasource.mysql.url}  
+
+    postgresql:
+      url: jdbc:postgresql://localhost:5432/poll
+      username: postgres
+      password: thirumal
+      driver-class-name: org.postgresql.Driver
+      hikari:
+        jdbc-url: ${spring.datasource.postgresql.url}  

@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "jte.development-mode",
+    "type": "java.lang.String",
+    "description": "A description for 'jte.development-mode'"
+  },
+  {
+    "name": "spring.datasource.mysql.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.mysql.username'"
+  },
+  {
+    "name": "spring.datasource.mysql.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.mysql.url'"
+  },
+  {
+    "name": "spring.datasource.mysql.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.mysql.password'"
+  },
+  {
+    "name": "spring.datasource.postgresql.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.postgresql.driver-class-name'"
+  },
+  {
+    "name": "spring.datasource.postgresql.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.postgresql.username'"
+  },
+  {
+    "name": "spring.datasource.postgresql.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.postgresql.password'"
+  },
+  {
+    "name": "spring.datasource.postgresql.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.postgresql.url'"
+  },
+  {
+    "name": "spring.datasource.mysql.hikari.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.mysql.hikari.jdbc-url'"
+  },
+  {
+    "name": "spring.datasource.postgresql.hikari.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.postgresql.hikari.jdbc-url'"
+  }
+]}
