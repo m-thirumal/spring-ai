@@ -27,9 +27,7 @@ public class OllamaMySqlDao extends AbstractOllamaDao<OllamaChat>{
 	@Override
 	public String processQuestion(OllamaChat ollamaChat) {
 		String prompt = """
-				you have access to a database with tables:
-				usr_dtls(usr_id, uin, entty_id, emp_no, adhar_no, pan_no, nationality, dob, status, usr_typ_id, ftp_id, dsgntn, remarks, reg_id, is_dsc_reg, msme_ref, reg_source, vrfd_usr, uid, crdt_tm, updt_tm, usr_status, is_tnc_accepted)
-				
+				you have access to a database of all tables:
 				User question: "%s"
 				
 				Return only a valid SQL SELECT query based on the question.
